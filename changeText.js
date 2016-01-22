@@ -1,8 +1,6 @@
 // JavaScript source code
-runFromJ();
 var testVariable = 300;
-alert(testVariable);
-
+var cars = ["Toyota", "Honda", "BMW"];
 
 var myJSONObject = {
     "bindings": [
