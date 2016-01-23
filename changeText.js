@@ -22,6 +22,10 @@ myData = JSON.parse(text, function (key, value) {
     return value;
 });
 
+function returnCars() {
+    var cars = ["First Car", "Second Car", "Third Car"];
+    return cars;
+}
 
     function myFunction() {
         document.getElementById("demo").innerHTML = "Paragraph changed.";
