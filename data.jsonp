@@ -1,0 +1,62 @@
+jsonCallback(
+{
+  "id": "0001",
+  "type": "donut",
+  "name": "Cake",
+  "ppu": 0.55,
+  "batters": {
+    "batter": [
+      {
+        "id": "1001",
+        "type": "Regular",
+        "milage": "Regular"
+      },
+      {
+        "id": "1002",
+        "type": "Chocolate",
+        "milage": "22222"
+      },
+      {
+        "id": "1003",
+        "type": "Blueberry",
+        "milage": "33333"
+      },
+      {
+        "id": "1004",
+        "type": "Devil's Food",
+        "milage": "44444"
+      }
+    ]
+  },
+  "topping": [
+    {
+      "id": "5001",
+      "type": "None"
+    },
+    {
+      "id": "5002",
+      "type": "Glazed"
+    },
+    {
+      "id": "5005",
+      "type": "Sugar"
+    },
+    {
+      "id": "5007",
+      "type": "Powdered Sugar"
+    },
+    {
+      "id": "5006",
+      "type": "Chocolate with Sprinkles"
+    },
+    {
+      "id": "5003",
+      "type": "Chocolate"
+    },
+    {
+      "id": "5004",
+      "type": "Maple"
+    }
+  ]
+}
+);
