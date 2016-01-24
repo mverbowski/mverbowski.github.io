@@ -1,96 +1,150 @@
-jsonCallback(
+﻿jsonCallback(
 {
   "carListing": {
     "car": [
       {
         "id": "1001",
         "manufacturer": "Acura",
-        "milage": "11111"
+        "baseModels": "12",
+		"priceRange": ["10000", "20000"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": "Acura (アキュラ Akyura?) is the luxury vehicle division of Japanese automaker Honda.[1] The brand was launched in the United States and Canada in March 1986, marketing luxury, performance, ..."
       },
       {
         "id": "1002",
         "manufacturer": "Alfa Romeo",
-        "milage": "22222"
+        "baseModels": "22",
+		"priceRange": ["5500", 12000"],
+		"yearsActive": ["1953", "2016"],
+		"blurb": "Alfa Romeo Automobiles S.p.A. (Italian pronunciation: [ˈalfa roˈmɛːo]) is an Italian car manufacturer. Founded as A.L.F.A. ("Anonima Lombarda Fabbrica Automobili", translating ..."
       },
       {
         "id": "1003",
         "manufacturer": "AMC",
-        "milage": "33333"
+        "baseModels": "33",
+		"priceRange": ["21000", 55000"],
+		"yearsActive": ["1923", "2016"],
+		"blurb": "American Motors Corporation (AMC) was an American automobile company formed by the 1954 merger of Nash-Kelvinator Corporation and Hudson Motor Car Company. At the time, it was the largest corporate merger in U.S. history ..."
       },
       {
         "id": "1004",
         "manufacturer": "Aston Martin",
-        "milage": "44444"
+        "baseModels": "44",
+		"priceRange": ["12000", 14000"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
        },
       {
         "id": "1005",
         "manufacturer": "Audi",
-        "milage": "44444"
+        "baseModels": "55",
+		"priceRange": ["10000", 20000"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
        },
       {
         "id": "1006",
         "manufacturer": "Bentley",
-        "milage": "44444"
+        "baseModels": "66",
+		"priceRange": ["10020", 20500"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
       },
       {
         "id": "1006",
         "manufacturer": "BMW",
-        "milage": "44444"
+        "baseModels": "77",
+		"priceRange": ["35000, 77000"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
       },
       {
         "id": "1006",
         "manufacturer": "Buick",
-        "milage": "44444"
+        "baseModels": "88",
+		"priceRange": ["10340", 20354"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
       },
       {
         "id": "1006",
         "manufacturer": "Cadillac",
-        "milage": "44444"
+        "baseModels": "99",
+		"priceRange": ["10000", 22450"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
       },
       {
         "id": "1006",
         "manufacturer": "Chevrolet",
-        "milage": "44444"
+        "baseModels": "100",
+		"priceRange": ["10230", 22400"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
       },
       {
         "id": "1006",
         "manufacturer": "Chrystler",
-        "milage": "44444"
+        "baseModels": "110",
+		"priceRange": ["18700", 27500"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
       },
       {
         "id": "1006",
         "manufacturer": "Daewoo",
-        "milage": "44444"
+        "baseModels": "120",
+		"priceRange": ["15600", 25600"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
       },
       {
         "id": "1006",
         "manufacturer": "Datsun",
-        "milage": "44444"
+        "baseModels": "130",
+		"priceRange": ["12340", 20540"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
       },
       {
         "id": "1006",
         "manufacturer": "DeLorean",
-        "milage": "44444"
+        "baseModels": "140",
+		"priceRange": ["15300", 20330"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
       },
       {
         "id": "1006",
         "manufacturer": "Dodge",
-        "milage": "44444"
+        "baseModels": "150",
+		"priceRange": ["10099", 20999"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
       },
       {
         "id": "1006",
         "manufacturer": "Eagle",
-        "milage": "44444"
+        "baseModels": "160",
+		"priceRange": ["13430", 20230"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
       },
       {
         "id": "1006",
         "manufacturer": "Ferrari",
-        "milage": "44444"
+        "baseModels": "170",
+		"priceRange": ["1030", 20540"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
       },
       {
         "id": "1006",
         "manufacturer": "FIAT",
-        "milage": "44444"
+        "baseModels": "180",
+		"priceRange": ["14000", 56000"],
+		"yearsActive": ["1903", "2016"],
+		"blurb": ""
       }
 
     ]
