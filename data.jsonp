@@ -51,7 +51,7 @@
 		"blurb": ""
       },
       {
-        "id": "1006",
+        "id": "1007",
         "manufacturer": "BMW",
         "baseModels": "77",
 		"priceRange": ["35000", "77000"],
@@ -59,7 +59,7 @@
 		"blurb": ""
       },
       {
-        "id": "1006",
+        "id": "1008",
         "manufacturer": "Buick",
         "baseModels": "88",
 		"priceRange": ["10340", "20354"],
@@ -67,7 +67,7 @@
 		"blurb": ""
       },
       {
-        "id": "1006",
+        "id": "1009",
         "manufacturer": "Cadillac",
         "baseModels": "99",
 		"priceRange": ["10000", "22450"],
@@ -75,7 +75,7 @@
 		"blurb": ""
       },
       {
-        "id": "1006",
+        "id": "1010",
         "manufacturer": "Chevrolet",
         "baseModels": "100",
 		"priceRange": ["10230", "22400"],
@@ -83,7 +83,7 @@
 		"blurb": ""
       },
       {
-        "id": "1006",
+        "id": "1011",
         "manufacturer": "Chrystler",
         "baseModels": "110",
 		"priceRange": ["18700", "27500"],
@@ -91,7 +91,7 @@
 		"blurb": ""
       },
       {
-        "id": "1006",
+        "id": "1012",
         "manufacturer": "Daewoo",
         "baseModels": "120",
 		"priceRange": ["15600", "25600"],
@@ -99,7 +99,7 @@
 		"blurb": ""
       },
       {
-        "id": "1006",
+        "id": "1013",
         "manufacturer": "Datsun",
         "baseModels": "130",
 		"priceRange": ["12340", "20540"],
@@ -107,7 +107,7 @@
 		"blurb": ""
       },
       {
-        "id": "1006",
+        "id": "1014",
         "manufacturer": "DeLorean",
         "baseModels": "140",
 		"priceRange": ["15300", "20330"],
