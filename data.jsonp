@@ -14,15 +14,15 @@
         "id": "1002",
         "manufacturer": "Alfa Romeo",
         "baseModels": "22",
-		"priceRange": ["5500", 12000"],
+		"priceRange": ["5500", "12000"],
 		"yearsActive": ["1953", "2016"],
-		"blurb": "Alfa Romeo Automobiles S.p.A. (Italian pronunciation: [ˈalfa roˈmɛːo]) is an Italian car manufacturer. Founded as A.L.F.A. ("Anonima Lombarda Fabbrica Automobili", translating ..."
+		"blurb": "Alfa Romeo Automobiles S.p.A. (Italian pronunciation: [ˈalfa roˈmɛːo]) is an Italian car manufacturer. Founded as A.L.F.A. (Anonima Lombarda Fabbrica Automobili, translating ..."
       },
       {
         "id": "1003",
         "manufacturer": "AMC",
         "baseModels": "33",
-		"priceRange": ["21000", 55000"],
+		"priceRange": ["21000", "55000"],
 		"yearsActive": ["1923", "2016"],
 		"blurb": "American Motors Corporation (AMC) was an American automobile company formed by the 1954 merger of Nash-Kelvinator Corporation and Hudson Motor Car Company. At the time, it was the largest corporate merger in U.S. history ..."
       },
@@ -30,7 +30,7 @@
         "id": "1004",
         "manufacturer": "Aston Martin",
         "baseModels": "44",
-		"priceRange": ["12000", 14000"],
+		"priceRange": ["12000", "14000"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
        },
@@ -38,7 +38,7 @@
         "id": "1005",
         "manufacturer": "Audi",
         "baseModels": "55",
-		"priceRange": ["10000", 20000"],
+		"priceRange": ["10000", "20000"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
        },
@@ -46,7 +46,7 @@
         "id": "1006",
         "manufacturer": "Bentley",
         "baseModels": "66",
-		"priceRange": ["10020", 20500"],
+		"priceRange": ["10020", "20500"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
       },
@@ -54,7 +54,7 @@
         "id": "1006",
         "manufacturer": "BMW",
         "baseModels": "77",
-		"priceRange": ["35000, 77000"],
+		"priceRange": ["35000", "77000"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
       },
@@ -62,7 +62,7 @@
         "id": "1006",
         "manufacturer": "Buick",
         "baseModels": "88",
-		"priceRange": ["10340", 20354"],
+		"priceRange": ["10340", "20354"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
       },
@@ -70,7 +70,7 @@
         "id": "1006",
         "manufacturer": "Cadillac",
         "baseModels": "99",
-		"priceRange": ["10000", 22450"],
+		"priceRange": ["10000", "22450"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
       },
@@ -78,7 +78,7 @@
         "id": "1006",
         "manufacturer": "Chevrolet",
         "baseModels": "100",
-		"priceRange": ["10230", 22400"],
+		"priceRange": ["10230", "22400"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
       },
@@ -86,7 +86,7 @@
         "id": "1006",
         "manufacturer": "Chrystler",
         "baseModels": "110",
-		"priceRange": ["18700", 27500"],
+		"priceRange": ["18700", "27500"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
       },
@@ -94,7 +94,7 @@
         "id": "1006",
         "manufacturer": "Daewoo",
         "baseModels": "120",
-		"priceRange": ["15600", 25600"],
+		"priceRange": ["15600", "25600"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
       },
@@ -102,7 +102,7 @@
         "id": "1006",
         "manufacturer": "Datsun",
         "baseModels": "130",
-		"priceRange": ["12340", 20540"],
+		"priceRange": ["12340", "20540"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
       },
@@ -110,7 +110,7 @@
         "id": "1006",
         "manufacturer": "DeLorean",
         "baseModels": "140",
-		"priceRange": ["15300", 20330"],
+		"priceRange": ["15300", "20330"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
       },
@@ -118,7 +118,7 @@
         "id": "1006",
         "manufacturer": "Dodge",
         "baseModels": "150",
-		"priceRange": ["10099", 20999"],
+		"priceRange": ["10099", "20999"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
       },
@@ -126,7 +126,7 @@
         "id": "1006",
         "manufacturer": "Eagle",
         "baseModels": "160",
-		"priceRange": ["13430", 20230"],
+		"priceRange": ["13430", "20230"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
       },
@@ -134,7 +134,7 @@
         "id": "1006",
         "manufacturer": "Ferrari",
         "baseModels": "170",
-		"priceRange": ["1030", 20540"],
+		"priceRange": ["1030", "25540"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
       },
@@ -142,7 +142,7 @@
         "id": "1006",
         "manufacturer": "FIAT",
         "baseModels": "180",
-		"priceRange": ["14000", 56000"],
+		"priceRange": ["14000", "56000"],
 		"yearsActive": ["1903", "2016"],
 		"blurb": ""
       }
