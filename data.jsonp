@@ -8,7 +8,7 @@
         "baseModels": "12",
 		"priceRange": ["10000", "20000"],
 		"yearsActive": ["1903", "2016"],
-		"blurb": "Acura (アキュラ Akyura?) is the luxury vehicle division of Japanese automaker Honda.[1] The brand was launched in the United States and Canada in March 1986, marketing luxury, performance, ..."
+		"blurb": "Acura"
       },
       {
         "id": "1002",
@@ -16,7 +16,7 @@
         "baseModels": "22",
 		"priceRange": ["5500", "12000"],
 		"yearsActive": ["1953", "2016"],
-		"blurb": "Alfa Romeo Automobiles S.p.A. (Italian pronunciation: [ˈalfa roˈmɛːo]) is an Italian car manufacturer. Founded as A.L.F.A. (Anonima Lombarda Fabbrica Automobili, translating ..."
+		"blurb": "Alfa  ..."
       },
       {
         "id": "1003",
@@ -24,7 +24,7 @@
         "baseModels": "33",
 		"priceRange": ["21000", "55000"],
 		"yearsActive": ["1923", "2016"],
-		"blurb": "American Motors Corporation (AMC) was an American automobile company formed by the 1954 merger of Nash-Kelvinator Corporation and Hudson Motor Car Company. At the time, it was the largest corporate merger in U.S. history ..."
+		"blurb": "American Motors Corporation (AMC)..."
       },
       {
         "id": "1004",
