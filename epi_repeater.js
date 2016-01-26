@@ -12,20 +12,13 @@ function FakeCellData() {
 
 
 var fakeCellData = FakeCellData();
-var fakeCellData2 = FakeCellData();
-fakeCellData.column0.text = "butthole";
-fakeCellData.column0.type = "butthole2";
-fakeCellData2.column0.text = "peni";
-fakeCellData2.column0.type = "peni2";
-alert(fakeCellData.column0.text);
-alert(fakeCellData.column0.type);
-alert(fakeCellData2.column0.text);
-alert(fakeCellData2.column0.type);
+
+fakeCellData.column0.text = "hi";
 
 
 function FakeSource() {
     this.adaptiveStyles = {},
-    this.data = [fakeCellData,fakeCellData2],
+    this.data = [fakeCellData,fakeCellData],
     this.dataProps = ["column0"],
     this.id = "ed147f6bd3704d85a4705e176a56d077",
     this.label = "rep2",
