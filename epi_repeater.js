@@ -70,6 +70,9 @@ function HackGetRepeater(repeaterLabel) {
 function setRepeaterDataSet(targetRepeater, sourceRepeater) {
 	var target = getRepeater(targetRepeater);
 	var source = getRepeater(sourceRepeater);
+
+	alert(source.data[0].column0.text + " : inside set repeater source");
+
 	var targetId = $axure('@'+targetRepeater).getElementIds()[0];
 	var sourceId = $axure('@'+sourceRepeater).getElementIds()[0];
 	epi.repeater.setDataSet(targetId, sourceId);
