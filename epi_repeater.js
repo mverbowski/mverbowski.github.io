@@ -11,15 +11,16 @@ function FakeCellData() {
 };
 
 
-var fakeCellData = FakeCellData()[2];
-fakeCellData.text[0] = "butthole";
-fakeCellData.text[1] = "butthole2";
-fakeCellData.type[0] = "peni";
-fakeCellData.type[1] = "peni2";
-alert(fakeCellData.text[0]);
-alert(fakeCellData.text[1]);
-alert(fakeCellData.type[0]);
-alert(fakeCellData.type[1]);
+var fakeCellData = FakeCellData();
+var fakeCellData2 = FakeCellData();
+fakeCellData.text = "butthole";
+fakeCellData.text = "butthole2";
+fakeCellData2.type = "peni";
+fakeCellData2.type = "peni2";
+alert(fakeCellData.text);
+alert(fakeCellData.text);
+alert(fakeCellData.type);
+alert(fakeCellData.type);
 
 
 function FakeSource() {
