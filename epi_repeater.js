@@ -59,11 +59,14 @@ function HackGetRepeater(repeaterLabel) {
     }).each(function (obj, repeaterId) {
         if (obj.label == repeaterLabel) {
             /*modify the obj here*/
+            alert(JSON.stringify(obj, null, 4));
             alert(obj.data[0].column0.text + ' : old value');
             obj.data[0].column0.text = "HackGetREpeater";
+            alert(JSON.stringify(obj, null, 4));
             alert(obj.data[0].column0.text + ' : new value');
             epi.repeater.refreshRepeater(repeaterId);
             theRepeater = obj;
+
         }
     });
     return theRepeater;
