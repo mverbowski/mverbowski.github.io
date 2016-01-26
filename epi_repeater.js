@@ -64,6 +64,16 @@ function setRepeaterDataSet(targetRepeater, sourceRepeater) {
 	console.log(target);
 }
 
+function FakeSetRepeaterDataSet(targetRepeater, source) {
+    var target = getRepeater(targetRepeater);
+    var targetId = $axure('@' + targetRepeater).getElementIds()[0];
+    var sourceId = $axure('@' + sourceRepeater).getElementIds()[0];
+    epi.repeater.setDataSet(targetId, sourceId);
+    epi.repeater.refreshRepeater(targetId);
+    target.data = source.data;
+    console.log(target);
+}
+
 setRepeaterDataSet('repeater2', masterRepeater.label);
 
 
