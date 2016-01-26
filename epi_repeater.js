@@ -10,7 +10,7 @@ function FakeCellData(var1, var2) {
         type: var2}
 };
 
-var fakeCellData = FakeCellData("hi","hu2");
+var fakeCellData = new FakeCellData("hi","hu2");
 alert(fakeCellData.column0.text);
 
 
