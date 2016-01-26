@@ -13,14 +13,14 @@ function FakeCellData() {
 
 var fakeCellData = FakeCellData();
 var fakeCellData2 = FakeCellData();
-fakeCellData.text = "butthole";
-fakeCellData.type = "butthole2";
-fakeCellData2.text = "peni";
-fakeCellData2.type = "peni2";
-alert(fakeCellData.text);
-alert(fakeCellData.type);
-alert(fakeCellData2.text);
-alert(fakeCellData2.type);
+fakeCellData.column0.text = "butthole";
+fakeCellData.column0.type = "butthole2";
+fakeCellData2.column0.text = "peni";
+fakeCellData2.column0.type = "peni2";
+alert(fakeCellData.column0.text);
+alert(fakeCellData.column0.type);
+alert(fakeCellData2.column0.text);
+alert(fakeCellData2.column0.type);
 
 
 function FakeSource() {
