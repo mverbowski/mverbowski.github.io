@@ -76,6 +76,10 @@ function HackGetRepeater(repeaterLabel) {
     return theRepeater;
 }
 
+function ModifyActiveDataSet(value) {
+    epi.repeater.ModifyActiveDataSet(value);
+}
+
 function ModifyValue(modValue) {
     alert('modValue hit: ' + modValue);
     $axure.internal(function($ax) {
