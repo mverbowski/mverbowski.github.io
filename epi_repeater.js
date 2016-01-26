@@ -92,6 +92,7 @@ function ModifyValue(modValue) {
                 
             });
     });
+    epi.repeater.refreshRepeater(u27);
 }
    
 
