@@ -11,7 +11,6 @@ function FakeCellData(var1, var2) {
 };
 
 var fakeCellData = new FakeCellData("hi","hu2");
-alert(fakeCellData.column0.text);
 
 
 function FakeSource() {
