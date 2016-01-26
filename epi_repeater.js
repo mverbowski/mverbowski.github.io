@@ -60,6 +60,7 @@ function HackGetRepeater(repeaterLabel) {
         if (obj.label == repeaterLabel) {
             /*modify the obj here*/
             obj.data[0].column0.text = "HackGetREpeater";
+            epi.repeater.refreshRepeater(repeaterId);
             theRepeater = obj;
         }
     });
