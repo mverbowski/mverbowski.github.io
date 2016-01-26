@@ -6,8 +6,8 @@ function isEpi_Repeater() {
 
 function FakeCellData() {
     this.column0 = {
-        text: "",
-        type: "",}
+        text: "1",
+        type: "2",}
 };
 
 
