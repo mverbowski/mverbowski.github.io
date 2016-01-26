@@ -54,7 +54,7 @@ function getRepeater(repeaterLabel) {
 
 function getRepeaterId(targetRepeater) {
     var targetId = $axure('@' + targetRepeater).getElementIds()[0];
-    return targedId;
+    return targetId;
 }
 
 function HackGetRepeater(repeaterLabel) {
