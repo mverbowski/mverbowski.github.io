@@ -79,7 +79,6 @@ function HackGetRepeater(repeaterLabel) {
 function ModifyValue(modValue) {
     alert('modValue hit: ' + modValue);
     $axure.internal(function($ax) {
-        var temp = function() {
             $ax(function(obj) {
                 return obj.type == 'repeater';
             }).each(function (obj, repeaterId) {
@@ -92,7 +91,6 @@ function ModifyValue(modValue) {
                 }
                 
             });
-        };
     });
 }
    
