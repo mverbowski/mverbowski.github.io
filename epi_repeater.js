@@ -6,15 +6,14 @@ function isEpi_Repeater() {
 
 function FakeCellData(var1, var2) {
     this.column0 = {
-        text: "var1",
-        type: "var2",}
+        text: var1,
+        type: var2,}
 };
 
 
 var fakeCellData = FakeCellData("hi","hu2");
+alert(fakeCellData.text);
 alert(fakeCellData.column0.text);
-alert(fakeCellData.column0.type);
-
 
 
 function FakeSource() {
