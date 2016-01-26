@@ -76,13 +76,30 @@ function HackGetRepeater(repeaterLabel) {
     return theRepeater;
 }
 
+function ModifyValue(modValue) {
+    $axure.internal(function($ax) {
+        var temp = function() {
+            $ax(function(obj) {
+                return obj.type == 'repeater';
+            }).each(function (obj, repeaterId) {
+                alert('im in epi_repeater');
+
+                /* Modifying repeater content here works */
+                if (repeaterId == "u27") {
+                    obj.data[0].column0.text = "changedFromEPI_RepJS";
+                    alert(obj.data[0].column0.text + ' from epi_repeater.js');
+                }
+                
+            });
+        };
+    });
+}
+   
+
 
 function setRepeaterDataSet(targetRepeater, sourceRepeater) {
 	var target = getRepeater(targetRepeater);
 	var source = getRepeater(sourceRepeater);
-
-	alert(source.data[0].column0.text + " : inside set repeater source");
-
 	var targetId = $axure('@'+targetRepeater).getElementIds()[0];
 	var sourceId = $axure('@'+sourceRepeater).getElementIds()[0];
 	epi.repeater.setDataSet(targetId, sourceId);
