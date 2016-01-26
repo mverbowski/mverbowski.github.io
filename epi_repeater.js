@@ -4,16 +4,17 @@ function isEpi_Repeater() {
     alert('epi_repeater!');
 };
 
-function FakeCellData() {
+function FakeCellData(var1, var2) {
     this.column0 = {
-        text: "1",
-        type: "2",}
+        text: "var1",
+        type: "var2",}
 };
 
 
-var fakeCellData = FakeCellData();
+var fakeCellData = FakeCellData("hi","hu2");
+alert(fakeCellData.column0.text);
+alert(fakeCellData.column0.type);
 
-fakeCellData.column0.text = "hi";
 
 
 function FakeSource() {
