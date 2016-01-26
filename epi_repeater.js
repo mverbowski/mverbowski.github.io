@@ -52,6 +52,21 @@ function getRepeater(repeaterLabel) {
 	return theRepeater;
 }
 
+function HackGetRepeater(repeaterLabel) {
+    var theRepeater;
+    $axure(function (obj) {
+        return obj.type == 'repeater';
+    }).each(function (obj, repeaterId) {
+        if (obj.label == repeaterLabel) {
+            /*modify the obj here*/
+            obj.data[0].column0.text = "HackGetREpeater";
+            theRepeater = obj;
+        }
+    });
+    return theRepeater;
+}
+
+
 function setRepeaterDataSet(targetRepeater, sourceRepeater) {
 	var target = getRepeater(targetRepeater);
 	var source = getRepeater(sourceRepeater);
@@ -63,15 +78,6 @@ function setRepeaterDataSet(targetRepeater, sourceRepeater) {
 	console.log(target);
 }
 
-function FakeSetRepeaterDataSet(targetRepeater, source) {
-    var target = getRepeater(targetRepeater);
-    var targetId = $axure('@' + targetRepeater).getElementIds()[0];
-    var sourceId = "u27";
-    epi.repeater.setDataSet(targetId, sourceId);
-    epi.repeater.refreshRepeater(targetId);
-    target.data = source.data;
-    console.log(target);
-}
 
 setRepeaterDataSet('repeater2', masterRepeater.label);
 
