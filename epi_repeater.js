@@ -1,5 +1,9 @@
 var masterRepeaterLabel = 'repeater';
 
+function isEpi_Repeater() {
+    alert('epi_repeater!');
+};
+
 var masterRepeater = {
 	label: masterRepeaterLabel,
 	obj: getRepeater(masterRepeaterLabel),
