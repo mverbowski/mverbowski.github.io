@@ -81,8 +81,8 @@ function HackGetRepeater(repeaterLabel) {
     return theRepeater;
 }
 
-function ModifyActiveDataSet(value) {
-    epi.repeater.ModifyActiveDataSet(value);
+function ModifyActiveDataSet(value, id) {
+    epi.repeater.ModifyActiveDataSet(value, id);
 }
 
 function ModifyValue(modValue) {
