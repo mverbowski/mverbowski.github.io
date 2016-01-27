@@ -37,6 +37,7 @@ function AddRowToDataSet(targetRepeater, colValue, value) {
 
 function AddJsonToRepeater(targetRepeater, jsonData)
 {
+    var len = jsonData.car.length;
     for (var i = 0; i < len; i++) {
         var count = 0;
         for (var item in jsonData.car[i]) {
