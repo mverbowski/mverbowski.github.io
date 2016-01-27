@@ -4,36 +4,6 @@ function isEpi_Repeater() {
     alert('epi_repeater!');
 };
 
-function FakeCellData(var1, var2) {
-    this.column0 = {
-        text: var1,
-        type: var2}
-};
-
-var fakeCellData = new FakeCellData("hi","hu2");
-
-
-function FakeSource() {
-    this.adaptiveStyles = {},
-    this.data = [fakeCellData,fakeCellData],
-    this.dataProps = ["column0"],
-    this.id = "ed147f6bd3704d85a4705e176a56d077",
-    this.label = "rep2",
-    this.objects = [],
-    this.owner = [],
-    this.parent = [],
-    this.repeaterPropMap = [],
-    this.scriptIds = ["u27"],
-    this.style = {
-        location: { x: "250", y: "210"},
-        size: {height: "150", width: "250"},
-    },
-    this.styleType = "repeater",
-    this.type = "repeater",
-    this.visible = "true"
-};
-
-
 var masterRepeater = {
 	label: masterRepeaterLabel,
 	obj: getRepeater(masterRepeaterLabel),
@@ -59,6 +29,10 @@ function getRepeaterId(targetRepeater) {
 
 function ModifyActiveDataSet(targetRepeater, value, id) {
     epi.repeater.ModifyActiveDataSet(targetRepeater, value, id);
+}
+
+function AddToDataSet(targetRepeater, value) {
+    epi.repeater.AddToDataSet(targetRepeater, value);
 }
 
 function setRepeaterDataSet(targetRepeater, sourceRepeater) {
