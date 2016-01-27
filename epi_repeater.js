@@ -37,16 +37,13 @@ function AddRowToDataSet(targetRepeater, colValue, value) {
 
 function AddJsonToRepeater(targetRepeater, jsonData)
 {
-
-    var len = jsonData.carListing.car.length;
-    var items = [];
-
     for (var i = 0; i < len; i++) {
+        var count = 0;
+        for (var item in jsonData.car[i]) {
+            epi.repeater.AddRowToDataSet(targetRepeater, [column][count], jsonData.car[i][item]);
 
-        var value = jsonData.carListing.car[i].manufacturer;
-        ModifyActiveDataSet(targetRepeater, value, number);
-        number += 1;
-
+            count += 1;
+        }
     }
 }
 
