@@ -35,6 +35,21 @@ function AddRowToDataSet(targetRepeater, colValue, value) {
     epi.repeater.AddRowToDataSet(targetRepeater, colValue, value);
 }
 
+function AddJsonToRepeater(targetRepeater, jsonData)
+{
+
+    var len = jsonData.carListing.car.length;
+    var items = [];
+
+    for (var i = 0; i < len; i++) {
+
+        var value = jsonData.carListing.car[i].manufacturer;
+        ModifyActiveDataSet(targetRepeater, value, number);
+        number += 1;
+
+    }
+}
+
 function RemoveRowFromDataSet(targetRepeater, index, amount) {
     epi.repeater.RemoveRowFromDataSet(targetRepeater, index, amount);
 }
