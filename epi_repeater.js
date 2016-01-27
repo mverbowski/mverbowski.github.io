@@ -57,54 +57,9 @@ function getRepeaterId(targetRepeater) {
     return targetId;
 }
 
-function HackGetRepeater(repeaterLabel) {
-    var theRepeater;
-    $axure(function (obj) {
-        return obj.type == 'repeater';
-    }).each(function (obj, repeaterId) {
-        if (obj.label == repeaterLabel) {
-            theRepeater = obj;
-
-            /*modify the obj here*/
-            alert(JSON.stringify(theRepeater, null, 4));
-            alert(obj.data[0].column0.text + ' : old value');
-
-            theRepeater.data[0].column0.text = "HackGetREpeater";
-
-            alert(JSON.stringify(theRepeater, null, 4));
-            alert(theRepeater.data[0].column0.text + ' : new value');
-
-            epi.repeater.refreshRepeater(repeaterId);
-            
-        }
-    });
-    return theRepeater;
+function ModifyActiveDataSet(targetRepeater, value, id) {
+    epi.repeater.ModifyActiveDataSet(targetRepeater, value, id);
 }
-
-function ModifyActiveDataSet(value, id) {
-    epi.repeater.ModifyActiveDataSet(value, id);
-}
-
-function ModifyValue(modValue) {
-    alert('modValue hit: ' + modValue);
-    $axure.internal(function($ax) {
-            $ax(function(obj) {
-                return obj.type == 'repeater';
-            }).each(function (obj, repeaterId) {
-                alert('im in epi_repeater');
-
-                /* Modifying repeater content here works */
-                if (repeaterId == "u27") {
-                    obj.data[0].column0.text = "changedFromEPI_RepJS";
-                    alert(obj.data[0].column0.text + ' from epi_repeater.js');
-                }
-                
-            });
-    });
-    epi.repeater.refreshRepeater(u27);
-}
-   
-
 
 function setRepeaterDataSet(targetRepeater, sourceRepeater) {
 	var target = getRepeater(targetRepeater);
