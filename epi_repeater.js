@@ -35,6 +35,10 @@ function AddToDataSet(targetRepeater, colValue, value) {
     epi.repeater.AddToDataSet(targetRepeater, colValue, value);
 }
 
+function RemoveFromDataSet(targetRepeater, colValue, value) {
+    epi.repeater.RemoveFromDataSet(targetRepeater, colValue, value);
+}
+
 function setRepeaterDataSet(targetRepeater, sourceRepeater) {
 	var target = getRepeater(targetRepeater);
 	var source = getRepeater(sourceRepeater);
