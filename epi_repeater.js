@@ -31,8 +31,8 @@ function ModifyActiveDataSet(targetRepeater, colValue, modValue, index) {
     epi.repeater.ModifyActiveDataSet(targetRepeater, colValue, modValue, index);
 }
 
-function AddToDataSet(targetRepeater, colValue, value) {
-    epi.repeater.AddToDataSet(targetRepeater, colValue, value);
+function AddRowToDataSet(targetRepeater, colValue, value) {
+    epi.repeater.AddRowToDataSet(targetRepeater, colValue, value);
 }
 
 function RemoveFromDataSet(targetRepeater, index, amount) {
