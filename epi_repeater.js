@@ -54,7 +54,7 @@ function getRepeater(repeaterLabel) {
 
 function getRepeaterId(targetRepeater) {
     var targetId = $axure('@' + targetRepeater).getElementIds()[0];
-    return targetId;
+    return targetId; 
 }
 
 function ModifyActiveDataSet(targetRepeater, value, id) {
