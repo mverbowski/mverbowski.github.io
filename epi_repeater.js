@@ -27,8 +27,8 @@ function getRepeaterId(targetRepeater) {
     return targetId; 
 }
 
-function ModifyActiveDataSet(targetRepeater, value, id) {
-    epi.repeater.ModifyActiveDataSet(targetRepeater, value, id);
+function ModifyActiveDataSet(targetRepeater, colValue, modValue, index) {
+    epi.repeater.ModifyActiveDataSet(targetRepeater, colValue, modValue, index);
 }
 
 function AddToDataSet(targetRepeater, colValue, value) {
