@@ -41,7 +41,7 @@ function AddJsonToRepeater(targetRepeater, jsonData)
     for (var i = 0; i < len; i++) {
         var count = 0;
         for (var item in jsonData[i]) {
-            epi.repeater.AddRowToDataSet(targetRepeater, 'column'[count], jsonData[i][item]);
+            epi.repeater.AddRowToDataSet(targetRepeater, ['column' + [count]], jsonData[i][item]);
 
             count += 1;
         }
