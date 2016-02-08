@@ -53,6 +53,11 @@ function RemoveRowFromDataSet(targetRepeater, index, amount) {
     epi.repeater.RemoveRowFromDataSet(targetRepeater, index, amount);
 }
 
+function GetRepeaterValue(targetRepeater, colValue, rowValue) {
+    var value = epi.repeater.GetRepeaterValue(targetRepeater, colValue, rowValue);
+    return value;
+}
+
 function setRepeaterDataSet(targetRepeater, sourceRepeater) {
 	var target = getRepeater(targetRepeater);
 	var source = getRepeater(sourceRepeater);
